@@ -52,6 +52,33 @@
         .dropdown:hover .dropcontent {
             display: block;
         }
+        .hlink:link {
+            color: rgb(0, 100, 25);
+        }
+        .hlink:visited {
+            color: rgb(0, 100, 25);
+        }
+        .hlink:hover {
+            color: rgb(0, 50, 13);
+        }
+        .hlink:active {
+            background-color: #aaffaa;
+        }
+        .heading {
+        	text-align: center;
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 50px;
+        }
+        .download {
+        	display: inline-block;
+            padding: 10px;
+            background-color:#aaffaa;
+            border-radius: 30px;
+        }
+        .download:link {
+        	text-decoration: none;
+        }
     </style>
     <body>
         <ul>
@@ -64,5 +91,19 @@
             </li>
             <li><a href="/wotd">Word of the Day</a></li>
         </ul>
+        <br>
+        <div class="heading">
+            <h2>ORAC Wayback Machine</h2>
+            <h3>Revert the ORAC verdicts to what it should be.<br>Restoring balance to an everchanging informatics landscape.</h3>
+        </div>
+        <br>
+        <p>The source code for the extension can be downloaded from the GitHub page:</p>
+        <a class="hlink" href="https://github.com/Lithanium/ORAC-Wayback-Machine">https://github.com/Lithanium/ORAC-Wayback-Machine</a>
+        <br>
+        <p>Alternatively, the zip file can be directly downloaded here.
+        <a href="extension.zip" download="orac-wayback-machine" class="download">
+        	Download
+        </a>
+        </p>
     </body>
 </html>
